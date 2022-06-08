@@ -1,0 +1,85 @@
+/* layout and fonts */
+@font-face {
+  font-family: 'quicksandregular';
+  src: url('fonts/quicksand-regular-webfont.woff2') format('woff2'),
+    url('fonts/quicksand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Simple Truth Scrollbar*/
+::-webkit-scrollbar {
+  width: 35px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(224, 97%, 26%, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: url(images/Simple-Truth-square.jpg);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  border-radius: 2px;
+}
+/*End of scrollbar back to general layout*/
+
+body {
+  background-image: url('images/big-church.jpg');
+}
+
+html {
+  font-size: 14px;
+}
+
+h1,
+p {
+  font-family: 'quicksandregular';
+}
+
+/*design and placement of navagation bar and church logo*/
+
+h1 {
+  background-image: url(images/Simple-Truth-square.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+span {
+  text-align: right;
+  font-size: 130%;
+  padding-left: 15em;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: auto;
+}
+
+.right {
+  color: hsl(224, 97%, 26%);
+  text-align: left;
+  font-size: 130%;
+  padding-left: 40px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: auto;
+  background-color: hsla(0, 6%, 66%, 0.099);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(224, 97%, 26%);
+}
+
+button {
+  background-color: hsla(0, 6%, 66%, 0.099);
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  color: hsl(224, 97%, 26%);
+  font-size: 70%;
+}
+
+button:hover {
+  color: hsl(0, 94%, 34%);
+  background-color: hsla(0, 0%, 0%);
+  font-size: 100%;
+}
